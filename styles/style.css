@@ -125,3 +125,46 @@ body{
 .single-colum-bottom-section i{
     margin-right: 5px;
 }
+/* ----------------------
+    Footer Section
+    ----------------------- */
+.footer-section{
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #161616;
+    text-align: center;
+}
+.footer-section h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.footer-section hr{
+    width: 80%;
+    border: 1px solid gray
+}
+.bottom-navigation{
+    margin-top: 50px;
+}
+.bottom-navigation ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.bottom-navigation ul li{
+    padding: 0 10px;
+}
+.bottom-navigation ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bottom-social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.bottom-social-icon i{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 15px;
+}

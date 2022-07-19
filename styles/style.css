@@ -65,8 +65,8 @@ body{
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items:flex-start;
     margin-top: 130px;
 }
 .side-navigation{
@@ -94,4 +94,34 @@ body{
 .side-navigation button:hover{
     background-color: #08ab11;
     color: #f0ffa0;
+}
+/* Colmn grid */
+.blog-colum-grid{
+    width: 71%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+.single-colum{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.single-colum-top-section img{
+    width: 100%;
+}
+.single-colum-bottom-section{
+    padding: 20px;
+}
+.single-colum-bottom-section button{
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.single-colum-bottom-section span{
+    margin-right: 30px;
+    color: #161616
+}
+.single-colum-bottom-section i{
+    margin-right: 5px;
 }

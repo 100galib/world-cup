@@ -248,8 +248,35 @@ body{
     .right-banner-section{
         margin-top: 21px;
     }
-    
-    .blog-section, .footer-section{
+    .blog-section{
+        width: 400px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items:center;
+        margin-top: 24px;
+    }
+    .side-navigation{
+        width: 312px;
+        height: 312px;
+        background-color:#ffffff;
+        border-radius: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+    .side-navigation button{ 
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #E8E8E8;
+    }
+    #small-view{
+        background-color: #265c23;
+        color: #ffffff;
+    }
+    .blog-colum-grid, .footer-section{
         display: none;
     }
 }

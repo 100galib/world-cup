@@ -98,6 +98,10 @@ body{
     background-color: #08ab11;
     color: #f0ffa0;
 }
+.side-navigation button a{
+    text-decoration: none;
+    color: #000000;
+}
 /* Column grid */
 .blog-colum-grid{
     width: 71%;

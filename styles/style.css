@@ -32,11 +32,14 @@ body{
     margin: 0;
     color: #758d47;
 }
-.left-banner-section p{
+.small-banner{
     font-size: 14px;
     font-weight: 400;
     margin: 30px 0;
     color: #265c23;
+}
+.small-banner-responsive{
+    display: none;
 }
 .left-banner-section button{
     width: 187px;
@@ -206,5 +209,47 @@ body{
 
 /* Mobile view */
 @media screen and (max-width:480px) {
+    .banner-section{
+        width: 400px;
+    }
+    .banner-main-section{
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .left-banner-section, .right-banner-section{
+        width: 70%;
+    }
+    .left-banner-section{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .left-banner-section h1{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 0;
+    }
+    .small-banner{
+        display: none;
+    }
+    .small-banner-responsive{
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 30px 0;
+        color: #265c23;
+    }
+    .right-banner-section img{
+        width: 300px;
+        height: 400px;
+    }
+    .right-banner-section{
+        margin-top: 21px;
+    }
     
+    .blog-section, .footer-section{
+        display: none;
+    }
 }
